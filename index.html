@@ -8,10 +8,73 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <main>
-        <h1>Static Pages</h1>
-        <p>This is paragraph</p>
-    </main>
+    
+    <div id="__root">
+        <header>
+            <div class="container">
+                <a href="/">Story</a>
+            </div>
+        </header>
+        
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/">Products</a>
+                    </li>
+
+                    <li>
+                        <a href="/">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <div class="container">
+                <div class="layout">
+                    <aside>
+                        <ul>
+                            <li>
+                                <a href="#html">HTML</a>
+                            </li>
+                            <li>
+                                <a href="#css">CSS</a>
+                            </li>
+                            <li>
+                                <a href="#javascript">JavaScript</a>
+                            </li>
+                        </ul>
+                    </aside>
+                    
+                    <article>
+                        <section class="section" id="html">
+                            <h3># HTML</h3>
+                            <p>HTML (Hypertext Markup Language) is the foundational language used to structure and present content on the web. It defines the elements and layout of a webpage, using a system of tags and attributes to organize text, images, links, and other media. HTML serves as the backbone of web development, allowing developers to create structured documents that can be styled with CSS and made interactive with JavaScript. It's essential for creating the skeleton of a webpage, ensuring content is accessible and properly displayed across different browsers and devices.</p>
+                        </section>
+                        <section class="section" id="css">
+                            <h3># CSS</h3>
+                            <p>CSS (Cascading Style Sheets) is a stylesheet language used to define the visual presentation of web pages. It allows developers to control the layout, colors, fonts, spacing, and overall design of HTML elements, making web content more aesthetically pleasing and user-friendly. CSS enables responsive design, ensuring that websites look and function well across various devices and screen sizes. It's a fundamental technology for front-end development, working alongside HTML and JavaScript to create modern web experiences.</p>
+                        </section>
+                        <section class="section" id="javascript">
+                            <h3># JavaScript</h3>
+                            <p>JavaScript is a versatile, high-level programming language primarily used for building dynamic and interactive web pages. It enables developers to implement complex features such as real-time updates, animations, and form validation. As a core technology of the web, alongside HTML and CSS, JavaScript is essential for front-end development, but it also has powerful applications on the server-side with environments like Node.js.</p>
+                        </section>
+                    </article>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>Copyright 2024. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
 
     <script src="./js/main.js"></script>
 </body>
